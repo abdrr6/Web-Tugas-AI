@@ -1,3 +1,7 @@
 flask
+tensorflow-cpu
 gunicorn
+pillow
 numpy
+opencv-contrib-python-headless
+
