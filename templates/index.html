@@ -7,33 +7,10 @@
         <link
             href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
             rel="stylesheet"
-        >
-          <link rel = "icon" href = "img/favicon.ico" 
-        type = "image/x-icon">
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <title>Pandan atau Sledri</title>
-            <!-- Custom stlylesheet -->
-        <link type="text/css" rel="stylesheet" href="css/style.css"/>
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
-
-        <!-- Bootstrap -->
-        <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
-
-        <!-- Slick -->
-        <link type="text/css" rel="stylesheet" href="css/slick.css"/>
-        <link type="text/css" rel="stylesheet" href="css/slick-theme.css"/>
-
-        <!-- nouislider -->
-        <link type="text/css" rel="stylesheet" href="css/nouislider.min.css"/>
-
-        <!-- Font Awesome Icon -->
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-
-        <!-- Custom stlylesheet -->
-        <link type="text/css" rel="stylesheet" href="css/style.css"/>
+        />
+        <title>Pandan atau Sledri App</title>
     </head>
     <body>
-        
         <section
             class="
                 flex
@@ -41,13 +18,9 @@
                 items-center
                 w-screen
                 h-screen
-
+                bg-green-300
             "
         >
-        <video autoplay loop play-inline muted >
-            <source src="img/wd-black.mp4">
-                video is not load
-            </video>
             <main
                 class="
                     flex flex-col
@@ -58,9 +31,7 @@
                     rounded-lg
                 "
             >
-            <div class="ketengah">
-                <h1> Pandan atau Sledri </h1>
-                </div>
+                <h1 class="text-3xl text-bold">Pandan atau Sledri</h1>
 
                 {% if uploaded_image %}
                 <img
@@ -76,12 +47,12 @@
                         my-8
                         w-48
                         h-48
-                        border-8 border-gray-200
+                        border-8 border-indigo-200
                         rounded-md
                     "
                 >
                     <p class="text-center">
-                        Masukkan gambar Pandan atau Sledri
+                        Masukkan gambar daun
                     </p>
                 </div>
                 {% endif %} {% if prediction %}
@@ -106,9 +77,9 @@
                     />
                     <button
                         type="submit"
-                        class="p-4 bg-green-500 text-white rounded-md"
+                        class="p-4 bg-green-300 text-white rounded-md"
                     >
-                      <h3 class="title">Prediksi</h3>
+                        Prediksi Gambar
                     </button>
                 </form>
             </main>
@@ -121,7 +92,7 @@
             />
             <img
                 class="h-16"
-                src="https://previews.123rf.com/images/arcady31/arcady311611/arcady31161100043/66778868-green-natural-leaf-logo.jpg?fj=1"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Logo_of_Ministry_of_Communication_and_Information_Technology_of_the_Republic_of_Indonesia.svg/1200px-Logo_of_Ministry_of_Communication_and_Information_Technology_of_the_Republic_of_Indonesia.svg.png"
                 alt=""
             />
         </footer>
